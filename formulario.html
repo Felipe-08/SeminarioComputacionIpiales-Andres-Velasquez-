@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Exportacion - Andres Velasquez</title>
+    
+
+    <!-- MDB icon -->
+    <link rel="icon" href="img/logo.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <link rel="stylesheet" type="text/css"  href="css/Styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Font+Name&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <!-- Container wrapper -->
+    <div class="container">
+      <!-- Navbar brand -->
+      <a class="navbar-brand me-2" href="index.html">
+        <img
+          src="img/LogoDian.png" class="logodi1"
+        />
+      </a>
+  
+      <!-- Toggle button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarButtonsExample"
+        aria-controls="navbarButtonsExample"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarButtonsExample">
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a id="inicio" class="nav-link" href="index.html">Inicio</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+  
+        <div class="d-flex align-items-center">
+  
+          <nav class="navbar navbar-light bg-white">
+            <div class="container-fluid">
+              <form class="d-flex input-group w-auto">
+                <input
+                  type="search"
+                  class="form-control rounded"
+                  placeholder="Buscar"
+                  aria-label="Search"
+                  aria-describedby="search-addon"
+                />
+                <span class="input-group-text border-0" id="search-addon">
+                  <i class="fas fa-search"></i>
+                </span>
+              </form>
+            </div>
+          </nav>
+  
+          
+         
+
+          <button id="button-iniciarsesion" type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal1">
+            Usuario
+          </button>
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Iniciar Sesion</h5>
+                  <button  type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="form-outline">
+                    <input type="text" id="typeText" class="form-control" />
+                    <label class="form-label" for="typeText">Usuario</label>
+                  </div>
+                  <div style="margin-top: 30px;" class="form-outline">
+                    <input type="password" id="typePassword" class="form-control" />
+                    <label class="form-label" for="typePassword">Contraseña</label>
+                  </div>
+                  <button style="margin-top: 30px; display: flex; justify-content: center;" type="button" class="btn btn-info">Iniciar Sesion</button>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+  
+          <a
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuAvatar"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="img/usuario.png"
+              class="logousu"
+              
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+    
+
+    <table class="tabla1" border="1" rules="all" >
+        
+
+
+        <tr>
+
+            <th><img src="img/logo_dian.jpg" width="340" height="90"  alt="" ></th>
+            <th style="width: 100%;">DECLARACION DE EXPORTACION</th>
+            <th><img src="img/img2.jpg" width="340" height="90"  alt="" ></th>
+            <th><img src="img/img3.png" width="200" height="90"  alt="" ></th>
+
+        </tr>
+
+        
+
+    </table>
+
+    <table class="tabla1" border="1" rules="all" frame="vsides">
+        <tr>
+            
+            <td style="width: 50%;"><b>Año:<input type="number"  placeholder="Ingrese año" style="width: 15%;">
+                <br> Espacio reservado para la DIAN:<br><br><input type="text" style="width: 98%;"><br><br><br></td>
+            <td style="width: 50%;"><br><b>Numero de formulario:
+                <br><br><input type="number"  placeholder="Ingrese el numero de formulario" style="width: 99%;"><br><br></td>
+
+        </tr>
+    </table>
+
+    <table class="tabla2"  border="1" rules="all"  >
+        
+        <tr>
+        <th style="width: 100%; background-color: #68b973;">EXPORTADOR<br><br></th>
+        </tr>
+
+    </table> 
+
+    <table class="tabla1" border="1" rules="all" frame="vsides">
+        
+        <tr>
+           
+            <td style="width: 20%;"><b>Tipo de documento:</b><br><label id="textoc" for="tdoc1">CC<input type="radio" name="tdoc1"></label> <label id="textoc" for="tdoc1">CE<input type="radio" name="tdoc1" ></label><br></td>
+            <td style="width: 15%;"><b>Numero de identificacion:</b><br><input type="number"  placeholder="Ingrese numero de idetificacion" style="width: 96%;"><br></td>
+            <td style="width: 5%;"><b>DV:</b><br><input type="number"  style="width: 88%;"><br></td>
+            <td style="width: 15%;"><b>Primer apellido:</b><br><input type="text"  placeholder="Ingrese primer apellido" style="width: 96%;"><br></td>
+            <td style="width: 15%;"><b>Segundo apellido:</b><br><input type="text"  placeholder="Ingrese segundo apellido" style="width: 95.5%;"><br></td>
+            <td style="width: 15%;"><b>Primer nombre:</b><br><input type="text"  placeholder="Ingrese primer nombre" style="width: 96%;"><br></td>
+            <td style="width: 15%;"><b>Otros nombres:</b><br><input type="text"  placeholder="Ingrese otros nombres" style="width: 96%;"><br></td>
+        </tr>
+
+        <tr>
+                <td colspan="7" style="width: 100%;"><b>Razon social:</b></b><br><input type="text"  placeholder="Ingrese razon social" style="width: 99.4%;"><br></td>
+        </tr>
+        
+    </table>
+
+    <table class="tabla2"  border="1" rules="all"   >
+        
+        <tr>
+        <th style="width: 100%; background-color: #68b973;">DECLARANTE<br><br></th>
+        </tr>
+
+    </table> 
+
+    <table class="tabla1" border="1" rules="all" frame="vsides">
+        
+        <tr>
+          
+            <td style="width: 20%;"><b>Tipo de documento:</b><br><label id="textoc" for="tdoc2">CC<input type="radio" name="tdoc2"></label> <label id="textoc" for="tdoc2">CE<input type="radio" name="tdoc2" ></label><br></td>
+            <td style="width: 15%;"><b>Numero de identificacion:</b><br><input type="number"  placeholder="Ingrese numero de idetificacion" style="width: 96%;"><br></td>
+            <td style="width: 5%;"><b>DV:</b><br><input type="number"  style="width: 88%;"><br></td>
+            <td style="width: 15%;"><b>Primer apellido:</b><br><input type="text"  placeholder="Ingrese primer apellido" style="width: 96%;"><br></td>
+            <td style="width: 15%;"><b>Segundo apellido:</b><br><input type="text"  placeholder="Ingrese segundo apellido" style="width: 95.5%;"><br></td>
+            <td style="width: 15%;"><b>Primer nombre:</b><br><input type="text"  placeholder="Ingrese primer nombre" style="width: 96%;"><br></td>
+            <td style="width: 15%;"><b>Otros nombres:</b><br><input type="text"  placeholder="Ingrese otros nombres" style="width: 96%;"><br></td>
+        </tr>
+
+        <tr>
+                <td colspan="7" style="width: 100%;"><b>Razon social:</b><br><input type="text"  placeholder="Ingrese razon social" style="width: 99.4%;"><br></td>
+        </tr>
+        
+    </table>
+
+
+    <table class="tabla2" border="1" rules="all" >
+        
+        <tr>
+        <th style="width: 100%; background-color: #68b973;">DESTINATARIO<br><br></th>
+        </tr>
+
+    </table> 
+
+    <table class="tabla1" border="1" rules="all" frame="vsides" >
+        
+        <tr>
+            <td style="width: 20%;"><b>Tipo de documento</b><br><label id="textoc" for="tdoc3">CC<input type="radio" name="tdoc3"></label> <label id="textoc" for="tdoc3">CE<input type="radio" name="tdoc3" ></label><br></td>
+            <td style="width: 20%;"><b>Numero de identificacion</b><br><input type="number"  placeholder="Ingrese numero de idetificacion" style="width: 97%;"><br></td>
+            <td style="width: 15%;"><b>Primer apellido:</b><br><input type="text"  placeholder="Ingrese primer apellido" style="width: 96%;"><br></td>
+            <td style="width: 15%;"><b>Segundo apellido:</b><br><input type="text"  placeholder="Ingrese segundo apellido" style="width: 95.5%;"><br></td>
+            <td style="width: 15%;"><b>Primer nombre:</b><br><input type="text"  placeholder="Ingrese primer nombre" style="width: 96%;"><br></td>
+            <td style="width: 15%;"><b>Otros nombres:</b><br><input type="text"  placeholder="Ingrese otros nombres" style="width: 96%;"><br></td>
+        </tr>
+
+
+    <table class="tabla1" border="1" rules="all" >    
+        <tr>
+                <td style="width: 100%;"><b>Razon social:</b><br><input type="text"  placeholder="Ingrese razon social" style="width: 99.4%;"><br></td>
+        </tr>
+
+    </table>
+
+    <table class="tabla1" border="1" rules="all"  frame="vsides" >
+        <tr>
+            <td style="width: 80%;"><b>Domicilio destinatario:</b><br><input type="text"  placeholder="Ingrese domicilio destinatario" style="width: 99.3%;"><br></td>
+            <td style="width: 20%;"><b>Ciudad:</b><br><input type="text"  placeholder="Ingrese ciudad" style="width: 97%;"><br></td>
+        </tr>
+    </table>
+        
+    </table>
+
+    <table class="tabla2"  border="1" rules="all"  >
+        
+        <tr>
+        <th style="width: 100%; background-color: #68b973;" >DATOS DEL NEGOCIO<br><br></th>
+        </tr>
+    </table>    
+
+    <table class="tabla1" border="1" rules="all" frame="vsides">    
+        
+        <tr>
+            
+            <td style="width: 45%;"><b>Clase DEX:</b><br><input type="text"  placeholder="Ingrese clase DEX" style="width: 98.5%;"><br></td>
+            <td style="width: 5%;"><b>Cod:</b><br><input type="number"  style="width: 88%;"><br></td>
+            <td style="width: 20%;"><b>No. de formulario anterior:</b><br><input type="number"  style="width: 97%;"><br></td>
+            <td style="width: 25%;"><b>Tipo de diligenciamiento:</b><br><input type="text"  placeholder="Ingrese Tipo de diligenciamiento" style="width: 97.5%;"><br></td>
+            <td style="width: 5%;"><b>cod:</b><br><input type="number"  style="width: 88%;"><br></td>
+        </tr>
+
+    </table>
+
+    <table class="tabla1" border="1" rules="all" > 
+        <tr>
+            <td style="width: 20%;"><b>Tipo de despacho:</b><br><input type="text"  placeholder="Ingrese Tipo de despacho" style="width: 97%;"><br></td>
+            <td style="width: 5%;"><b>Cod:</b><br><input type="number"  style="width: 88%;"><br></td>
+            <td style="width: 15%;"><b>Tipo de correccion:</b><br><input type="text"  placeholder="Ingrese Tipo de correccion" style="width: 96%;"><br></td>
+            <td style="width: 5%;"><b>Cod:</b><br><input type="number"  style="width: 87%;"><br></td>
+            <td style="width: 12%;"><b>No. de referencia:</b><br><input type="number"  style="width: 95%;"><br></td>
+            <td style="width: 20%;"><b>No. Programa especial de muestras:</b><br><input type="number"  style="width: 97%;"><br></td>
+            <td style="width: 23%;"><b>No. de autorizacion de embarque global:</b><br><input type="number"  style="width: 97%;"><br></td>
+            
+        </tr>    
+    
+     </table>
+
+     <table class="tabla1" border="1" rules="all" frame="vsides"> 
+        <tr>
+            <td style="width: 30%;"><b>Regimen aduanero:</b><br><input type="text"  placeholder="Ingresen Regimen aduanero" style="width: 98%;"><br></td>
+            <td style="width: 5%;"><b>Cod:</b><br><input type="number"  style="width: 87.5%;"><br></td>
+            <td style="width: 30%;"><b>Aduana despacho:</b><br><input type="text"  placeholder="Ingrese Aduana despacho" style="width: 98%;"><br></td>
+            <td style="width: 5%;"><b>Cod:</b><br><input type="number"  style="width: 87.5%;"><br></td>
+            <td style="width: 10%;"><b>Cod pais tramite:</b><br><input type="number"  style="width: 94%;"><br></td>
+            <td style="width: 20%;"><b>Cod region procedencia:</b><br><input type="number"  style="width: 97%;"><br></td>
+            
+        </tr>   
+            
+     </table>
+
+     <table class="tabla1" border="1" rules="all" > 
+        <tr>
+            <td style="width: 15%;"><b>Tipo de datos:</b><br><input type="text"  placeholder="Ingrese Tipo de datos" style="width: 96%;"><br></td>
+            <td style="width: 5%;"><b>Cod:</b><br><input type="number"  style="width: 87.5%;"><br></td>
+            <td style="width: 20%;"><b>Tipo de embarque:</b><br><input type="text"  placeholder="Ingrese Tipo de embarque" style="width: 97%;"><br></td>
+            <td style="width: 5%;"><b>Cod:</b><br><input type="number"  style="width: 87.5%;"><br></td>
+            <td style="width: 25%;"><b>Cod naturaleza transaccion:</b><br><input type="number"  style="width: 98%;"><br></td>
+            <td style="width: 10%;"><b>Cod incoterms:</b><br><input type="number"  style="width: 94%;"><br></td>
+            <td style="width: 25%;"><b>lugar de entrega:</b><br><input type="text"  placeholder="Ingrese lugar de entrega" style="width: 97%;"><br></td>
+            
+        </tr>   
+            
+     </table>
+
+     <table class="tabla1" border="1" rules="all" frame="vsides" > 
+        <tr>
+            <td style="width: 15%;"><b>Cod moneda transaccion:</b><br><input type="number" style="width: 96%;"><br></td>
+            <td style="width: 30%;"><b>Valor factura en moneda de transaccion:</b><br><input type="number" style="width: 98%;"><br></td>
+            <td style="width: 10%;"><b>Tasa de cambio:</b><br><input type="number" style="width: 94%;"><br></td>
+            <td style="width: 20%;"><b>Forma de pago:</b><br><input type="text"  placeholder="Ingrese Forma de pago" style="width: 97%;"><br></td>
+            <td style="width: 5%;"><b>Cod: </b><br><input type="number" style="width: 87.5%;"><br></td>
+            <td style="width: 20%;"><b>Cantidad de pagos anticipados:</b><br><input type="number" style="width: 97%;"></td>
+            
+        </tr>   
+            
+     </table>
+
+     <table class="" border="1" rules="all"  > 
+        <tr>
+            <td style="width: 15%;"><b>Fecha 1er pago anticipado:</b><br>
+                <input type="date" id="start" name="trip-start"
+                value="2023-05-05"
+                min="2018-01-01" max="2018-12-31" style="width: 97.5%;"><br></td></td>
+            <td style="width: 20%;"><b>Mercancia a la mano con el viajero:</b><br><label id="textoc" for="merc">Si<input type="radio" name="merc"></label> <label id="textoc" for="merc">No<input type="radio" name="merc" ></label> <br></td>
+            <td style="width: 13%;"><b>Sistemas especiales:</b><br><label id="textoc" for="sist">Si<input type="radio" name="sist"></label> <label id="textoc" for="sist">No<input type="radio" name="sist" ></label> <br></td>
+            <td style="width: 15%;"><b>Exportacion en transito:</b><br><label id="textoc" for="exp">Si<input type="radio" name="exp"></label> <label id="textoc" for="exp">No<input type="radio" name="exp" ></label> <br></td>
+            <td style="width: 15%;"><b>Modo de transporte: </b><br><input type="text"  placeholder="Ingrese Modo de transporte" style="width: 96%;"><br></td>
+            <td style="width: 5%;"><b>Cod:</b><br><input type="number" style="width: 88%;"><br></td>
+            <td style="width: 12%;"><b>Tipo de carga:</b><br><input type="text"  placeholder="Ingrese Tipo de carga" style="width: 94.5%;"><br></td>
+            <td style="width: 5%;"><b>Cod:</b><br><input type="number" style="width: 88%;"><br></td>
+
+        </tr>   
+            
+     </table>
+
+     <table class="tabla2"  border="1" rules="all"  frame="vsides">
+        
+        <tr>
+        <th style="width: 100%; background-color: #68b973;">LUGARES<br><br></th>
+        </tr>
+    </table>   
+
+     <table class="tabla1" border="1" rules="all"  > 
+        <tr>
+            <td style="width: 30%;"><b>Aduana de salida:</b><br><input type="text"  placeholder="Ingrese Aduana de salida" style="width: 98%;"><br></td>
+            <td style="width: 5%;"><b>Cod:</b><br><input type="number" style="width: 87%;"><br></td>
+            <td style="width: 20%;"><b>Pais destino final:</b><br><input type="text"  placeholder="Ingrese Pais destino final" style="width: 97%;"><br></td>
+            <td style="width: 5%;"><b>Cod:</b><br><input type="number" style="width: 87%;"><br></td>
+            <td style="width: 20%;"><b>Cod lugar destino final:</b><br><input type="number" style="width: 97%;"><br></td>
+            <td style="width: 20%;"><b></b><br><br></td>
+
+        </tr>   
+            
+     </table>
+
+     <table class="tabla2"  border="1" rules="all"  frame="vsides">
+        
+        <tr>
+        <th style="width: 100%; background-color: #68b973;">VALORES ESTADISTICOS TOTALES<br><br></th>
+        </tr>
+    </table>
+
+    <table class="tabla1" border="1" rules="all" > 
+        <tr>
+            <td style="width: 25%;"><b>Valor total USD:</b><br><input type="number" style="width: 97.5%;"><br></td>
+            <td style="width: 25%;"><b>Valor total fletes USD:</b><br><input type="number" style="width: 97.5%;"><br></td>
+            <td style="width: 25%;"><b>Valor total seguro USD:</b><br><input type="number" style="width: 97.5%;"><br></td>
+            <td style="width: 25%;"><b>Valor total otros gastos USD:</b><br><input type="number" style="width: 97.5%;"><br></td>
+        </tr> 
+        
+        <tr>
+            <td style="width: 25%;"><b>Valor total exportaciones USD:</b><br><input type="number" style="width: 97.5%;"><br></td>
+            <td style="width: 25%;"><b>Valor a reintegrar USD:</b><br><input type="number" style="width: 97.5%;"><br></td>
+            <td style="width: 25%;"><b>Total valor agregado nacional USD:</b><br><input type="number" style="width: 97.5%;"><br></td>
+            <td style="width: 25%;"><b>Fecha declaracion exportacion:</b><br>
+                <input type="date" id="start" name="trip-start"
+                value="2023-05-05"
+                min="2018-01-01" max="2018-12-31" style="width: 98.5%;"><br></td>
+        </tr> 
+            
+     </table>
+
+     
+
+    </table>
+
+    <br>
+
+    <button type="button" class="btn btn-primary">ENVIAR</button>
+
+    <br>
+
+
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-white text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Conéctate con nosotros en las redes sociales:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+
+    <div>
+      <a href="" class="me-4 link-secondary" >
+        <i class="fab fa-facebook-f fa-lg" ></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-twitter fa-lg"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-google fa-lg"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-instagram fa-lg"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-linkedin fa-lg"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="fab fa-github fa-lg" ></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary" ></i>
+          </h6>
+    
+          <p>
+            Dirección de Impuestos y Aduanas Nacionales
+          </p>
+
+            <img src="img/LogoDian.png" class="logodi2" >
+
+          
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Productos
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Importaciones y exportaciones</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Courier internacional</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Servicios adicionales</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Enlaces utiles
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Precios</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Ajustes</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Ordenes</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Ayuda</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> Sede principal | Bogotá, Nivel Central, carrera 8 Nº 6C - 38 Edificio San Agustín</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            DIAN@example.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> 57 601 307 8064 Línea de Contact Center atención de Impuestos</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> 601 7428973</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(194, 8, 8, 0.025);">
+    © 2023 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Dian.example.co</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+
+
+
+
+
+
+
+
+    
+
+   
+
+    
+
+
+
+
+    
+</body>
+</html>

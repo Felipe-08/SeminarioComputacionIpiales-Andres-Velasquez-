@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2? family= Fira+Sans:ital,wght@1,100 & display=swap');
+
+
+*{
+    background-color: rgb(240, 237, 237);
+}
+
+#textoc{
+
+    text-align: center;
+
+}
+
+*{
+
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 15px;
+}
+
+.tabla1{
+    width: 100%;
+}
+
+
+.tabla2{
+    width: 100%;
+    background-color: #68b973;
+}
+
+.logousu{
+
+    height:35px;
+    margin-top: 1px;
+    margin-left: 5px;
+
+}
+.logodi1 {
+
+    width:90px;
+    height:30px;
+
+}
+
+#inicio{
+
+    font-weight: bold;
+}

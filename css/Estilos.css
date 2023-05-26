@@ -1,0 +1,54 @@
+.logodi1 {
+
+    width:90px;
+    height:30px;
+
+}
+
+.logodi2 {
+
+    width:250px;
+    height:90px;
+}
+.logousu{
+
+    height:35px;
+    margin-top: 1px;
+    margin-left: 5px;
+
+}
+
+#nosotros{
+
+    font-weight: bold;
+}
+
+#usuario{
+
+    font-weight: bold;
+}
+
+#inicio{
+
+    font-weight: bold;
+}
+
+
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  .row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}  
+
+
+
+.center2 {
+    display: block;
+    margin: 0 auto;
+  }
